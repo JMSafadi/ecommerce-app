@@ -1,4 +1,5 @@
 import React, { useRef, useContext } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link, useNavigate } from 'react-router-dom';
 import AppContext from '../context/AppContext';
 import '../styles/Information.css'
@@ -29,6 +30,10 @@ const Information = () => {
   }
 
   return (
+    <>
+      <Helmet>
+      <title>Informacion de pago - Jumasa</title>
+      </Helmet>
       <div className='Information'>
         <div className='Information-content'>
           <div className='Information-head'>
@@ -72,6 +77,7 @@ const Information = () => {
           ))}
         </div>
       </div>
+    </>
   );
 }
 
