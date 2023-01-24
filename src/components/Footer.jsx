@@ -4,8 +4,8 @@ import '../styles/Footer.css'
 const Footer = () => {
   return (
     <div className='Footer'>
-      <p className='Footer-title'>PlatziConf Merch</p>
-      <p className='Footer-copy'>Todos los izquierdos reservados.</p>
+      <p className='Footer-title'>JumaSports E-commerce</p>
+      <p className='Footer-copy'>All rights reserved ®</p>
     </div>
   );
 }
