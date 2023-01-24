@@ -28,8 +28,6 @@ const Information = () => {
     navigate('/checkout/payment')
   }
 
-  console.log(cart)
-
   return (
       <div className='Information'>
         <div className='Information-content'>
