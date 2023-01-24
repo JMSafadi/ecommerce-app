@@ -28,6 +28,8 @@ const Information = () => {
     navigate('/checkout/payment')
   }
 
+  console.log(cart)
+
   return (
       <div className='Information'>
         <div className='Information-content'>
@@ -50,7 +52,7 @@ const Information = () => {
           <div className='Information-button'>
             <div className='Information-back'>
             <Link to='/checkout'>
-              Regresar
+              <button style={{background: 'grey', color: 'black', border:'none', fontWeight:'normal'}}>Regresar</button>
             </Link>
             </div>
             <div className='Information-next'>
@@ -63,6 +65,7 @@ const Information = () => {
           {cart.map((item) => (
             <div className='Information-element'>
               <h4>{item.title}</h4>
+              <img src={item.image} alt={item.title}/>
               <span>
                 $
                 {item.price}
