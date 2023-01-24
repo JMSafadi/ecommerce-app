@@ -41,6 +41,11 @@
 .Information-element h4 {
   margin: 0;
 }
+.Information-element img {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+}
 h2 {
   margin: 0 0 8px 0;
   padding: 0;
@@ -89,4 +94,5 @@ input {
     width: 100%;
     display: block;
     outline: none;
+    margin: 10px;
 }

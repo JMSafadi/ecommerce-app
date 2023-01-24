@@ -1,6 +1,14 @@
-Header {
+.Header {
   display: flex;
   justify-content: space-between;
+}
+.Header-title {
+  font-size: 44px;
+  font-weight: 600;
+}
+.Header a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
 }
 .Header-checkout {
   display: flex;
@@ -10,12 +18,12 @@ Header {
   width: 30px;
   margin: 0 0 0 0.5em;
 }
-.Header-alert {
-  color: #33b13a;
-  font-size: 14px;
-  margin-left: 5px;
+.Header-checkout a i {
+  font-size: 25px;
 }
-.Header a {
-  text-decoration: none;
-  color: darkcyan;
+
+.Header-alert {
+  font-size: 20px;
+  margin-left: 5px;
+  color: rgb(77, 77, 77);
 }
