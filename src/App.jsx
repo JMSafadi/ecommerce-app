@@ -14,7 +14,6 @@ import useInitialState from './hooks/useInitialState'
 function App() {
 
   const initialState = useInitialState()
-  console.log(initialState)
 
   return (
     <AppContext.Provider value={initialState}>
